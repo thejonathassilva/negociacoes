@@ -5,7 +5,10 @@
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "sourceMap": true
     },
     "include": ["app/src/**/*"]
 }
